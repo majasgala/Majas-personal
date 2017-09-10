@@ -1,0 +1,191 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="zh-Hant">
+<!--<![endif]-->
+<head>
+	<title>Majas 個人網站</title>
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="all" />
+    
+     <!--遊戲搜尋書簽-->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+    <!--遊戲搜尋書簽-->
+    
+<meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="fb:app_id" content="zengshen" />
+    <meta name="viewport" content="width=800" />
+	<meta name="Copyright" content="© majas">
+    <link rel="shortcut icon" href="img/jas.jpg">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<link rel="stylesheet" href="css/Majas.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="Load/Load.css" /> <!--讀取中-->
+
+<script type="text/javascript" src="JS/jquery-compat-3.0.0-alpha1.min.js"></script>
+<script src="JS/jquery-2.0.0.min.js"></script>
+<!--<script type="text/javascript" src="JS/Jquery-windox-size.js"></script>-->
+<script src="JS/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="JS/rubberBand.js"></script>
+<script type="text/javascript" src="JS/popup-youtube.js"></script>
+
+
+<!--通知-->
+<script type="text/javascript">
+		 
+	function AAA(){
+		alert("敬請期待");
+	}	
+</script>
+
+
+
+<!--彈跳-->
+<script>
+
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+</script>
+
+
+
+<!--消除a超連結藍線-->
+<script>
+	jQuery(function($){
+	  $("a").focus(function(){
+		$(this).blur();
+	  });
+	});
+</script>
+
+</head> 
+
+
+
+<body>
+
+<!--====================== 讀取中 ======================-->
+    <div id="preloader">
+        <div id="status"><p>loading.....</p></div>
+    </div>
+	<script type="text/javascript" src="Load/custom.js"></script><!-- 讀取中 -->
+    
+
+<!--====================== 架構 ======================-->
+	
+
+
+	<!-- MENU -->
+	<div class="Menu">
+    	<ul>
+        	<li><a href="#"><p>歷代作品</p></a></li>
+            <li><a href="index.html"><p>個人資訊</p></a></li>
+            <li style=" margin:0; float:left;"><img src="img/majas-logo.png" width="95%"></li>
+        </ul>
+    </div>
+    
+    
+        <!-- 裝飾圓 -->
+            <div class="roundXX" style="margin:2% 0 0 76%; position: absolute;">
+                <div class="round150" style="margin:0% 0 0 3%;"></div>
+                <div class="round100" style="margin:0px 0 0 3%;"></div>
+                <div class="round50"  style="margin:8% 0 0 3%;"></div>
+            </div>
+            
+            <div class="roundXX" style="margin:19% 0 0 6%; position: absolute;">
+                <div class="round200" style="margin:0% 0 0 4%;"></div>
+                <div class="round150" style="margin:-1% 0 0 3%;"></div>
+                <div class="round50"  style="margin:0% 0 0 2%;"></div>
+            </div>
+            
+            <div class="roundXX" style="margin:37% 0 0 64%; position: absolute;">
+                <div class="round200" style="margin:0% 0 0 0%;"></div>
+                <div class="round150" style="margin:4% 0 0 0%;"></div>
+                <div class="round50"  style="margin:0% 0 0 9%;"></div>
+            </div>
+            
+        
+<!--====================== 內容 ======================-->
+        <div class="time">
+        <!-- 公司時間軸 -->
+        	<div class="company">
+				<div class="timeline-Box">
+                    <div class="timeline"></div>
+                    <div class="timeBall"><img src="img/decoration/color_04.png" width="40"></div>
+                    <p class="timeP">-奧爾資訊多媒體股份有限公司</p>
+                    <a class="roundA" href="https://drive.google.com/drive/folders/0B48njTyWvhWnTG96cDlEbHRGTWM?usp=sharing" target="_blank">
+                        <p class="roundAP">2017~2013相關作品</p>
+                        <img src="img/roundA.png" width="200">
+                    </a>
+                </div>  
+
+				<div class="timeline-Box">
+                    <div class="timeline"></div>
+                    <div class="timeBall"><img src="img/decoration/color_04.png" width="40"></div>
+                    <p class="timeP">-陸豪科技有限公司</p>
+                    <a class="roundA " href="https://drive.google.com/drive/folders/0B48njTyWvhWnaFNQVzZySnFqR1k" target="_blank">
+                        <p class="roundAP">2013~2011相關作品</p>
+                        <img src="img/roundA.png" width="200">
+                    </a>
+                </div>  
+ 
+				<div class="timeline-Box">
+                    <div class="timeBall"><img src="img/decoration/color_04.png" width="40"></div>
+                    <p class="timeP">-加蛋創意</p>
+                    <a class="roundA" href="https://drive.google.com/drive/folders/0B48njTyWvhWnQ3ZMTHZtM3MwSjA?usp=sharing"  target="_blank">
+                        <p class="roundAP">2010相關作品</p>
+                        <img src="img/roundA.png" width="200">
+                        
+                    </a>
+                </div>  
+                           
+            </div>
+            
+            
+        <!-- 個人 -->
+            <div class="personal">
+				<div class="timeline-Box">
+                    <div class="timeBall"><img src="img/decoration/color_02.png" width="40"></div>
+                    <p class="timeP">-個人作品</p>
+                    <a class="roundA" href="https://drive.google.com/drive/folders/0B48njTyWvhWnc2tJN1lHSFVSR0U?usp=sharing" target="_blank">
+                        <p class="roundAP">Illustration相關作品</p>
+                        <img src="img/roundA.png" width="200">
+                    </a>
+                </div>  
+            </div>
+        </div>
+            
+            
+</body>
+</html>

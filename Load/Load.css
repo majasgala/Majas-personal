@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*讀取中*/ 
+#preloader {
+	position:fixed;
+	z-index:2500;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#FFF; 
+	z-index:99999999; 
+}
+
+#status {
+	position:fixed;
+	z-index:99999999;
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; 
+	top:50%; 
+	background-image: url(ripple.gif); 
+	background-size:150px 150px;
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-125px 0 0 -125px; 
+}
+
+#status p{
+	text-align:center;
+	margin-top:180px;
+	font-size:1em;
+	
+	color:#83b2d2;
+}
+
+#status em{
+	font-size:10px!important;
+	display:block;
+	font-style:normal;
+	
+}
+/*讀取中END*/ 

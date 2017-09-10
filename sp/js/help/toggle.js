@@ -1,0 +1,41 @@
+$(function(){
+	
+		$(".QA-01").click(function(){
+			$("#CONTENT-01").toggle();
+		});	
+		$(".QA-02").click(function(){
+			$("#CONTENT-02").toggle();
+		});	
+		$(".QA-03").click(function(){
+			$("#CONTENT-03").toggle();
+		});	
+		$(".QA-04").click(function(){
+			$("#CONTENT-04").toggle();
+		});	
+		$(".QA-05").click(function(){
+			$("#CONTENT-05").toggle();
+		});	
+		$(".QA-06").click(function(){
+			$("#CONTENT-06").toggle();
+		});	
+		$(".QA-07").click(function(){
+			$("#CONTENT-07").toggle();
+		});	
+		$(".QA-08").click(function(){
+			$("#CONTENT-08").toggle();
+		});	
+		$(".QA-09").click(function(){
+			$("#CONTENT-09").toggle();
+		});	
+		$(".QA-10").click(function(){
+			$("#CONTENT-10").toggle();
+		});	
+		$(".QA-11").click(function(){
+			$("#CONTENT-11").toggle();
+		});	
+		$(".QA-12").click(function(){
+			$("#CONTENT-12").toggle();
+		});	
+		
+})
+
